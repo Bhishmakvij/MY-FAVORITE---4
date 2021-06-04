@@ -1,6 +1,6 @@
 body{
     text-align:center;
-    background-color:linear-gradient(cornsilk,firebrick);
+    background-image:linear-gradient(cornsilk,firebrick);
     background-repeat:no-repeat;
 }
 #ttracketimage{
@@ -30,8 +30,14 @@ body{
     height: 6px;
     background-color: #000;
     width: 260px;
-    margin:25px auto;
-}
+    margin:25px auto;}
+   
+.liiiiine {
+    height: 6px;
+    background-color: #000;
+    width: 260px;
+    margin:25px auto;}
+
 h1{
     text-shadow:4px 4px fuchsia;
     color: darkmagenta;
@@ -65,4 +71,12 @@ html{
 #p{
     font-size:25px;
     font-family:fantasy;
+}
+#IMG{
+    transform: transform .2s;
+    border: 10px solid #AAAAAA;
+    height: 300px;
+}
+IMG:hover {
+    transform: scale(0.9);
 }
